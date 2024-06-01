@@ -1,0 +1,23 @@
+:root {
+    --light-blue: #4d5b9e;
+    --blue: #293264;
+}
+
+button.submit,
+.playAgain {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+p.score {
+    color: var(--blue);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    margin-right: -1rem;
+}
+
+.submit-wrapper {
+    display: flex;
+    margin-top: 1rem;
+}
